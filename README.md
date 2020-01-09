@@ -4,7 +4,7 @@
 
 ### Server (springboot)
 
-No estoy seguro que sea este el comando correcto. Yo hice el proyecto con Eclipse. Luego veo de poner el comando correcto.
+No estoy seguro que sea este el comando correcto. Yo hice el proyecto con Eclipse. Luego veo de poner el comando correcto. Y springboot toco de oido solamente.
 
 ```mvn spring-boot:run``` 
 
