@@ -24,6 +24,8 @@ This works with 2 images that had uploaded:
 
  - [spring-boot](https://hub.docker.com/repository/docker/fhofman/bpi-springboot)
  - [angular](https://hub.docker.com/repository/docker/fhofman/bpi-angular)
+ 
+ Cualquier cosa poder ver los Dockerfile de cada proyecto o dentro del link también está.
 
 Temas que quedaron pendientes:
 - Al levantar docker-compose debería predefinir los ip asi se pueden ver las maquinas. Que esten en la misma red y se linkeen. 
