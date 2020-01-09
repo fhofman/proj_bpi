@@ -1,0 +1,50 @@
+<div class="card my-5">
+  <div class="card-body">
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Updated</th>
+          <th scope="col">Chart</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ price.time.updated }}</td>
+          <td>{{ price.chartName }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card my-5">
+  <div class="card-body">
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Descripción</th>
+          <th scope="col">Rate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ price.bpi.USD.code }}</td>
+          <td>{{ price.bpi.USD.description }}</td>
+          <td>{{ price.bpi.USD.rate }}</td>
+        </tr>
+        <tr>
+          <td>{{ price.bpi.GBP.code }}</td>
+          <td>{{ price.bpi.GBP.description }}</td>
+          <td>{{ price.bpi.GBP.rate }}</td>
+        </tr>
+        <tr>
+          <td>{{ price.bpi.EUR.code }}</td>
+          <td>{{ price.bpi.EUR.description }}</td>
+          <td>{{ price.bpi.EUR.rate }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
