@@ -4,6 +4,7 @@
 
 ### Server (springboot)
 
+```mvn spring-boot:run```
 
 ### Client (angular - nodejs)
 
@@ -29,3 +30,4 @@ Temas que quedaron pendientes:
 
 Dificultades que tuve: 
 - No había trabajado con springboot anteriormente, eso me hizo bloquearme varias veces.
+
