@@ -4,7 +4,9 @@
 
 ### Server (springboot)
 
-```mvn spring-boot:run```
+No estoy seguro que sea este el comando correcto. Yo hice el proyecto con Eclipse. Luego veo de poner el comando correcto.
+
+```mvn spring-boot:run``` 
 
 ### Client (angular - nodejs)
 
