@@ -9,7 +9,7 @@ export class PriceService {
   private priceUrl: string;
 
   constructor(private http: HttpClient) {
-    this.priceUrl = 'http://localhost:8080/prices';
+    this.priceUrl = 'http://localhost:8080/prices2';
   }
 
   public findAll(): Observable<Price> {
